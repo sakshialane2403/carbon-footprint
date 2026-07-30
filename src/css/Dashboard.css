@@ -1,0 +1,22 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#f5f7fb;
+}
+
+.dashboard{
+display:flex;
+}
+
+.dashboard-content{
+margin-left:270px;
+width:calc(100% - 270px);
+padding:30px;
+min-height:100vh;
+background:linear-gradient(135deg,#eefbf2,#ffffff);
+}
