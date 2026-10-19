@@ -1,0 +1,29 @@
+.admin-cards {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 0;
+  width: 100%;
+  min-width: 0;
+}
+.admin-card {
+  background: #fff;
+  padding: 16px 18px;
+  border-radius: 14px;
+  box-shadow: none;
+  border: 1px solid #e8eef4;
+}
+.admin-card::before { display: none; }
+.admin-card-top { display: flex; justify-content: space-between; align-items: center; }
+.admin-card h4 { color: #64748b; font-size: 11px; margin: 0 0 6px; text-transform: uppercase; }
+.admin-card h2 { color: #0f2744; font-size: 26px; margin: 0; }
+.admin-icon {
+  width: 40px; height: 40px; border-radius: 10px;
+  display: flex; justify-content: center; align-items: center;
+  font-size: 16px; color: #fff;
+}
+.blue .admin-icon { background: #2563eb; }
+.green .admin-icon { background: #16a34a; }
+.orange .admin-icon { background: #f59e0b; }
+.purple .admin-icon { background: #9333ea; }
+@media (max-width: 900px) { .admin-cards { grid-template-columns: 1fr 1fr; } }

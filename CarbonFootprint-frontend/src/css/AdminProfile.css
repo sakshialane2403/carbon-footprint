@@ -1,0 +1,12 @@
+.admin-profile-card { width: 100%; padding: 8px 0 2px; text-align: center; }
+.profile-icon {
+  width: 68px; height: 68px; margin: 0 auto 12px; display: flex; align-items: center; justify-content: center;
+  border-radius: 50%; background: linear-gradient(135deg, #dcfce7, #bbf7d0); font-size: 28px;
+}
+.admin-profile-card h2 { margin: 0; color: #1f2937; font-size: 20px; }
+.admin-profile-card > p { margin: 5px 0 18px; color: #6b7280; font-size: 12px; }
+.profile-data { display: flex; flex-direction: column; gap: 9px; margin: 0 0 18px; padding: 15px; background: #f8faf9; border-radius: 14px; text-align: left; }
+.profile-actions { display: flex; gap: 8px; width: 100%; }
+.profile-view-btn { flex: 1; min-height: 38px; border: 1px solid #bbf7d0; border-radius: 9px; background: #f0fdf4; color: #15803d; cursor: pointer; }
+.profile-refresh-btn { width: 38px; height: 38px; border: 1px solid #e5e7eb; border-radius: 9px; background: #fff; cursor: pointer; }
+.profile-details { margin-top: 14px; padding: 14px 15px; background: #f8fafc; border-radius: 12px; text-align: left; }

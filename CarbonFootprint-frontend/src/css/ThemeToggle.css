@@ -1,0 +1,6 @@
+.theme-btn {
+  padding: 10px 15px; border: none; border-radius: 12px;
+  background: #14532d; color: white; cursor: pointer; font-size: 14px;
+}
+.theme-btn:hover { transform: scale(1.05); }
+body.dark-mode { background: #0b1f14; color: #e5e7eb; }

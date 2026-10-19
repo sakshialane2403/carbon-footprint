@@ -1,0 +1,13 @@
+.admin-quick-panel {
+  background: white;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+.admin-quick-panel h2 { color: #14532d; margin-bottom: 20px; }
+.admin-quick-panel button {
+  width: 100%; padding: 13px; margin-bottom: 12px; border: none; border-radius: 12px;
+  background: #22c55e; color: white; font-size: 15px; cursor: pointer; transition: 0.3s;
+}
+.admin-quick-panel button:hover { background: #15803d; transform: translateY(-3px); }
+.quick-action-message { margin-top: 10px; background: #dcfce7; padding: 10px; border-radius: 10px; }

@@ -1,0 +1,18 @@
+.footer { background: #0f3d24; color: #d1fae5; padding: 56px 8% 24px; position: relative; }
+.footer-container { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 28px; }
+.footer-about h2 { margin: 0 0 12px; color: #fff; }
+.footer-about p { color: #bbf7d0; line-height: 1.7; max-width: 320px; }
+.footer h3 { color: #fff; font-size: 16px; margin: 0 0 12px; }
+.footer a { color: #bbf7d0; display: block; margin: 8px 0; text-decoration: none; }
+.footer a:hover { color: #fff; }
+.social-icons { display: flex; gap: 12px; }
+.social-icons a {
+  width: 36px; height: 36px; border-radius: 50%; background: rgba(255,255,255,.1);
+  display: flex; align-items: center; justify-content: center; color: #fff;
+}
+.copyright { text-align: center; margin-top: 28px; color: #86efac; font-size: 13px; }
+.scroll-top {
+  position: absolute; right: 28px; bottom: 28px; width: 44px; height: 44px;
+  border-radius: 50%; border: 0; background: #16a34a; color: #fff; cursor: pointer;
+}
+@media (max-width: 800px) { .footer-container { grid-template-columns: 1fr 1fr; } }

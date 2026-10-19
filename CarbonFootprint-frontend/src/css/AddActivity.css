@@ -1,0 +1,31 @@
+.add-activity-page { min-height: auto; padding: 0; background: transparent; }
+.add-activity-container { max-width: none; margin: 0; }
+.activity-page-header {
+  display: flex; justify-content: space-between; align-items: flex-end;
+  margin-bottom: 20px;
+}
+.activity-breadcrumb { color: #16a34a; font-size: 11px; font-weight: 800; letter-spacing: .12em; }
+.activity-page-header h1 { margin: 6px 0 0; color: #14532d; font-size: 26px; }
+.add-activity-page .activity-card {
+  background: #fff; padding: 26px; border-radius: 16px;
+  border: 1px solid #e4eee8;
+}
+.activity-form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.activity-input-group { display: flex; flex-direction: column; gap: 7px; }
+.activity-input-group.full-width { grid-column: 1 / -1; }
+.activity-input-group label { font-size: 12px; font-weight: 700; color: #475569; }
+.activity-input-group input, .activity-input-group select, .activity-input-group textarea {
+  width: 100%; padding: 12px 14px; border: 1px solid #d9e4dd; border-radius: 10px;
+  outline: none; background: #fff; font: inherit; box-sizing: border-box;
+}
+.activity-form-actions { display: flex; gap: 10px; justify-content: flex-end; margin-top: 18px; flex-wrap: wrap; }
+.activity-save-btn {
+  background: #16a34a; color: #fff; border: none;
+  border-radius: 10px; padding: 11px 18px; cursor: pointer; font-weight: 600;
+}
+.activity-cancel-btn, .activity-calculate-btn {
+  border: 1px solid #d1d5db; background: #fff; border-radius: 10px; padding: 11px 18px; cursor: pointer; font-weight: 600;
+}
+.activity-error { background: #fef2f2; color: #b91c1c; padding: 10px 12px; border-radius: 10px; margin-bottom: 12px; }
+.emission-result { background: #f0fdf4; padding: 16px; border-radius: 12px; margin-top: 16px; border: 1px solid #bbf7d0; }
+@media (max-width: 768px) { .activity-form-grid { grid-template-columns: 1fr; } }

@@ -1,0 +1,8 @@
+.sustain-card {
+  margin-top: 35px; background: white; padding: 30px; border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08); display: flex; gap: 25px; flex-wrap: wrap;
+}
+.sustain-card h2 { color: #14532d; width: 100%; }
+.overview-box { flex: 1; background: #f0fdf4; padding: 20px; border-radius: 15px; text-align: center; min-width: 140px; }
+.overview-box h3 { font-size: 28px; color: #16a34a; }
+.overview-box p { color: #666; }

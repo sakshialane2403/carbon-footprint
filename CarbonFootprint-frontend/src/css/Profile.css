@@ -1,0 +1,53 @@
+.profile-page { min-height: auto; padding: 0; background: transparent; color: #1f2937; }
+.profile-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 22px; }
+.profile-label { color: #16a34a; font-size: 11px; font-weight: 800; letter-spacing: .14em; }
+.profile-header h1 { margin: 6px 0 0; font-size: 28px; color: #14532d; letter-spacing: -0.03em; }
+.edit-profile-btn, .save-profile-btn {
+  border: none; padding: 11px 18px; border-radius: 10px; font-size: 13px; font-weight: 600; cursor: pointer;
+  background: linear-gradient(135deg,#22c55e,#15803d); color: #fff;
+}
+.profile-hero {
+  background: linear-gradient(135deg, #0f3d24, #166534 55%, #22c55e);
+  border-radius: 20px; padding: 26px 28px; color: #fff;
+  display: flex; align-items: center; gap: 20px; margin-bottom: 20px;
+  box-shadow: 0 14px 32px rgba(15,61,36,.18);
+}
+.profile-hero h2 { margin: 0 0 4px; font-size: 24px; }
+.profile-hero p { margin: 0; opacity: .9; }
+.profile-avatar-large {
+  width: 76px; height: 76px; border-radius: 50%; background: #fff; color: #16a34a;
+  display: flex; align-items: center; justify-content: center; font-size: 30px; font-weight: 700;
+}
+.profile-badges { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
+.profile-badges span { padding: 6px 10px; border-radius: 20px; background: rgba(255,255,255,0.16); font-size: 11px; }
+.profile-hero .eco-score {
+  margin-left: auto; display: flex; align-items: center; gap: 12px;
+  padding-left: 22px; border-left: 1px solid rgba(255,255,255,0.22);
+  background: transparent; text-align: left;
+}
+.eco-score-circle {
+  width: 64px; height: 64px; border-radius: 50%; background: rgba(255,255,255,0.16);
+  display: flex; align-items: center; justify-content: center; flex-direction: column;
+}
+.eco-score-circle strong { font-size: 18px; }
+.eco-score h3 { margin: 0; font-size: 14px; }
+.eco-score p { margin: 2px 0 0; font-size: 12px; opacity: .85; }
+.profile-grid { display: grid; grid-template-columns: 1.2fr .8fr; gap: 18px; }
+.profile-page .profile-card {
+  background: #fff; border: 1px solid #e4eee8; border-radius: 18px; padding: 22px;
+  box-shadow: 0 10px 24px rgba(15,61,36,.05); text-align: left;
+}
+.profile-page .profile-card h2 { color: #14532d; margin: 0 0 16px; font-size: 17px; }
+.profile-form { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.profile-field label { display: block; font-size: 11px; font-weight: 700; color: #94a3b8; letter-spacing: .06em; text-transform: uppercase; margin-bottom: 6px; }
+.field-value { padding: 12px 14px; background: #f6faf7; border-radius: 10px; font-size: 14px; color: #14532d; }
+.profile-field input {
+  width: 100%; box-sizing: border-box; padding: 12px 14px; border: 1px solid #d1d5db; border-radius: 10px;
+}
+.overview-item { display: flex; justify-content: space-between; align-items: center; padding: 13px 0; border-bottom: 1px solid #f1f5f3; font-size: 14px; }
+.overview-item b { color: #15803d; }
+@media (max-width: 950px) {
+  .profile-grid, .profile-form { grid-template-columns: 1fr; }
+  .profile-hero { flex-direction: column; align-items: flex-start; }
+  .profile-hero .eco-score { margin-left: 0; padding-left: 0; border-left: 0; }
+}

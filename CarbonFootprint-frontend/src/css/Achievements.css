@@ -1,0 +1,30 @@
+.achievement-card {
+  background: #fff;
+  margin-top: 35px;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+.achievement-card h2 { color: #14532d; margin-bottom: 25px; }
+.badge-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+.badge-box {
+  background: #f0fdf4;
+  padding: 25px;
+  border-radius: 18px;
+  text-align: center;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.badge-box:hover { transform: translateY(-6px); background: #dcfce7; }
+.badge-icon {
+  width: 70px; height: 70px; margin: auto;
+  border-radius: 50%; background: #16a34a; color: #fff;
+  display: flex; justify-content: center; align-items: center;
+  font-size: 30px; margin-bottom: 15px;
+}
+.badge-box h3 { color: #14532d; margin-bottom: 10px; }
+.badge-box p { color: #6b7280; font-size: 14px; line-height: 1.5; }

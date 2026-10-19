@@ -1,0 +1,14 @@
+.quick-actions {
+  background: #fff; padding: 30px; border-radius: 20px; margin-top: 35px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+.quick-actions h2 { color: #14532d; margin-bottom: 25px; }
+.action-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 20px; }
+.action-btn {
+  background: #f0fdf4; border: none; border-radius: 15px; padding: 25px; cursor: pointer;
+  display: flex; flex-direction: column; align-items: center; gap: 12px;
+  font-size: 16px; font-weight: 600; color: #14532d;
+}
+.action-btn svg { font-size: 32px; color: #16a34a; }
+.action-btn:hover { background: #16a34a; color: #fff; transform: translateY(-5px); }
+.action-btn:hover svg { color: #fff; }

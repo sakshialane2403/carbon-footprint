@@ -1,0 +1,17 @@
+.admin-header {
+  background: transparent;
+  padding: 16px 22px 8px;
+  border: 0;
+  box-shadow: none;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.admin-header h2 { color: #0f2744; margin: 0 0 2px; font-size: 20px; }
+.admin-header p { color: #64748b; margin: 0; font-size: 12px; }
+.admin-right { display: flex; align-items: center; gap: 14px; }
+.bell { font-size: 18px; cursor: pointer; color: #16a34a; }
+.admin-profile { display: flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; color: #0f2744; }
+.admin-header { min-width: 0; }
+.admin-layout { background: #f4f7fb; }

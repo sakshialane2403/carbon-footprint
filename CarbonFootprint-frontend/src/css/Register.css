@@ -1,0 +1,42 @@
+.register{ min-height:100vh; background:linear-gradient(160deg,#ecfdf5,#fff); padding:40px 20px; }
+.register-right{ max-width:860px; margin:0 auto; background:#fff; padding:32px; border-radius:20px; box-shadow:0 10px 30px rgba(0,0,0,.06); }
+.login-text { text-align: center; margin-top: 25px; font-size: 15px; color: #555; }
+.login-text a { color: #1b8f4b; font-weight: 600; text-decoration: none; margin-left: 5px; }
+.stepper { display: flex; justify-content: space-between; margin: 25px 0 35px; }
+.step { display: flex; flex-direction: column; align-items: center; flex: 1; position: relative; }
+.step span {
+  width: 40px; height: 40px; border-radius: 50%; background: #d9d9d9; color: #555;
+  display: flex; align-items: center; justify-content: center; font-weight: bold;
+}
+.step p { margin-top: 8px; font-size: 14px; color: #666; }
+.step.active span { background: #198754; color: #fff; }
+.step::after {
+  content: ""; position: absolute; top: 20px; left: 55%; width: 90%; height: 3px; background: #ddd; z-index: -1;
+}
+.step:last-child::after { display: none; }
+.step.active::after { background: #198754; }
+.form-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+.form-group { display: flex; flex-direction: column; }
+.form-group label { font-weight: 600; margin-bottom: 8px; }
+.form-group input, .form-group select {
+  padding: 12px; border: 1px solid #ccc; border-radius: 8px; font-size: 15px; outline: none;
+}
+.step-buttons { display: flex; justify-content: space-between; margin-top: 30px; }
+.next-btn, .prev-btn, .reset-btn, .register-btn {
+  border: none; padding: 12px 28px; border-radius: 8px; cursor: pointer; font-size: 15px; font-weight: 600;
+}
+.next-btn, .register-btn { background: #198754; color: white; }
+.prev-btn { background: #6c757d; color: white; }
+.reset-btn { background: #dc3545; color: white; margin-right: 12px; }
+.last-buttons { display: flex; gap: 12px; }
+.checkbox-group { margin-top: 20px; }
+.checkbox-group label { display: block; margin-bottom: 12px; font-size: 14px; }
+.password-wrap { position: relative; }
+.password-wrap input { width: 100%; box-sizing: border-box; padding-right: 44px; }
+.eye-btn {
+  position: absolute; right: 8px; top: 50%; transform: translateY(-50%);
+  width: 36px; height: 36px; border: none; background: transparent; cursor: pointer;
+  color: #64748b; display: flex; align-items: center; justify-content: center; font-size: 16px;
+}
+.eye-btn:hover { color: #14532d; }
+@media (max-width: 768px) { .form-grid { grid-template-columns: 1fr; } }

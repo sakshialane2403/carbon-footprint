@@ -1,0 +1,52 @@
+.activity-logging-page {
+  min-height: auto; padding: 0; background: transparent; color: #17231d;
+}
+.activity-page-header {
+  display: flex; justify-content: space-between; align-items: flex-end; gap: 30px;
+  margin-bottom: 20px; padding: 24px 26px; background: #fff; border: 1px solid #e4eee8;
+  border-radius: 20px; box-shadow: 0 10px 26px rgba(15,61,36,.05);
+}
+.activity-breadcrumb { margin-bottom: 8px; color: #718078; font-size: 13px; }
+.activity-page-header h1 { margin: 0; color: #183d2a; font-size: 30px; }
+.activity-total-card {
+  min-width: 190px; padding: 17px 20px; background: #f0f9f3; border: 1px solid #dceee2;
+  border-radius: 14px; text-align: right;
+}
+.activity-total-card strong { color: #16834d; font-size: 25px; }
+.activity-form-card {
+  margin-bottom: 24px; padding: 26px; background: #fff; border: 1px solid #e2ebe5; border-radius: 18px;
+}
+.activity-form-title { display: flex; align-items: center; gap: 14px; margin-bottom: 24px; padding-bottom: 18px; border-bottom: 1px solid #edf2ef; }
+.activity-title-icon { width: 45px; height: 45px; display: flex; align-items: center; justify-content: center; background: #eaf8f0; border-radius: 12px; }
+.activity-form-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+.activity-input-group { display: flex; flex-direction: column; gap: 7px; }
+.activity-input-group.activity-full, .activity-input-group.full-width { grid-column: 1 / -1; }
+.activity-input-group input, .activity-input-group select, .activity-input-group textarea {
+  width: 100%; box-sizing: border-box; padding: 11px 13px; border: 1px solid #d9e4dd; border-radius: 9px; outline: none;
+}
+.activity-input-group input, .activity-input-group select { height: 43px; }
+.emission-preview {
+  display: flex; align-items: center; gap: 15px; margin-top: 22px; padding: 17px 20px;
+  background: #f0f9f3; border: 1px solid #dceee2; border-radius: 13px;
+}
+.preview-result { margin-left: auto; text-align: right; }
+.preview-result strong { color: #16834d; font-size: 24px; }
+.activity-form-actions { display: flex; justify-content: flex-end; gap: 10px; margin-top: 22px; padding-top: 18px; border-top: 1px solid #edf2ef; }
+.activity-primary-btn, .activity-save-btn { padding: 10px 18px; border-radius: 9px; color: #fff; background: #16834d; border: none; cursor: pointer; }
+.activity-secondary-btn, .activity-cancel-btn, .activity-calculate-btn { padding: 10px 18px; border-radius: 9px; background: #f0f4f2; border: none; cursor: pointer; }
+.activity-history-card { overflow: hidden; background: #fff; border: 1px solid #e2ebe5; border-radius: 18px; }
+.activity-history-header { display: flex; justify-content: space-between; padding: 21px 23px; border-bottom: 1px solid #edf2ef; }
+.history-count { padding: 7px 12px; color: #28744e; background: #eef8f2; border-radius: 20px; font-size: 10px; }
+.activity-table { width: 100%; border-collapse: collapse; }
+.activity-table th { padding: 13px 15px; background: #f7faf8; font-size: 9px; text-align: left; }
+.activity-table td { padding: 14px 15px; border-bottom: 1px solid #edf2ef; font-size: 11px; }
+.history-category { display: inline-block; padding: 5px 9px; background: #f3f6f4; border-radius: 20px; font-size: 9px; }
+.history-emission { color: #16834d; }
+.history-edit { color: #2868a4; background: #edf5ff; border: 1px solid #dceafa; padding: 6px 9px; border-radius: 7px; cursor: pointer; }
+.history-delete { color: #b14f4f; background: #fff1f1; border: 1px solid #f5dddd; padding: 6px 9px; border-radius: 7px; cursor: pointer; }
+.activity-error { background: #fef2f2; color: #b91c1c; padding: 10px; border-radius: 10px; margin-bottom: 12px; }
+.emission-result { display: flex; gap: 12px; background: #f0f9f3; padding: 16px; border-radius: 12px; margin-top: 16px; }
+.add-activity-page { min-height: 100vh; padding: 32px; background: #f5faf7; }
+.add-activity-container { max-width: 1100px; margin: 0 auto; }
+.activity-card { background: #fff; padding: 26px; border-radius: 18px; border: 1px solid #e2ebe5; }
+@media (max-width: 700px) { .activity-form-grid { grid-template-columns: 1fr; } }

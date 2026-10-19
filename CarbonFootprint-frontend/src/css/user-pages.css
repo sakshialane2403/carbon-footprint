@@ -1,0 +1,138 @@
+/* User content area — same density as admin pages, sidebar already admin-style */
+
+.dashboard,
+.user-page-wrap {
+  background: #f4f7fb;
+}
+
+.dashboard-content {
+  margin-left: 0;
+  padding: 0;
+  min-height: auto;
+}
+
+.user-page-wrap > .goals-page,
+.user-page-wrap > .reports-page,
+.user-page-wrap > .settings-page,
+.user-page-wrap > .profile-page,
+.user-page-wrap > .activity-logging-page,
+.user-page-wrap > .activity-history-page,
+.user-page-wrap > .add-activity-page,
+.admin-page-content .settings-page,
+.user-page-wrap .settings-page {
+  padding: 0;
+  background: transparent;
+  min-height: auto;
+}
+
+.header {
+  background: #fff;
+  border: 1px solid #e8eef4;
+  border-radius: 14px;
+  padding: 14px 18px;
+  margin-bottom: 16px;
+}
+
+.header h1 { color: #0f2744; font-size: 20px; }
+.header p { color: #64748b; font-size: 13px; }
+
+.cards .card,
+.chart-card,
+.activity-card,
+.goal-card,
+.report-panel,
+.history-table-card,
+.history-filter-card,
+.history-summary-card,
+.report-card,
+.goal-stat,
+.activity-form-card,
+.activity-history-card,
+.settings-section,
+.settings-menu,
+.profile-page .profile-card,
+.pro-article-card,
+.pro-article,
+.insight-card {
+  border-radius: 14px;
+  border: 1px solid #e8eef4;
+  box-shadow: none;
+}
+
+.goals-header h1,
+.history-header h1,
+.reports-header h1,
+.profile-header h1,
+.settings-top h1,
+.activity-page-header h1 {
+  color: #0f2744;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.page-label,
+.history-breadcrumb,
+.reports-breadcrumb,
+.profile-label,
+.settings-kicker,
+.activity-breadcrumb {
+  color: #16a34a;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.add-goal-btn,
+.add-history-btn,
+.export-report-btn,
+.activity-primary-btn,
+.activity-save-btn,
+.update-btn,
+.edit-profile-btn,
+.save-profile-btn {
+  background: #16a34a;
+  box-shadow: none;
+}
+
+.add-goal-btn:hover,
+.activity-save-btn:hover,
+.update-btn:hover {
+  background: #15803d;
+}
+
+.activity-page-header {
+  background: #fff;
+  border: 1px solid #e8eef4;
+  border-radius: 14px;
+  padding: 16px 18px;
+  box-shadow: none;
+}
+
+.articles-page {
+  display: grid;
+  gap: 16px;
+}
+.articles-page-head h1 {
+  margin: 0;
+  color: #0f2744;
+  font-size: 22px;
+}
+.articles-page-head p {
+  margin: 6px 0 0;
+  color: #64748b;
+  font-size: 13px;
+}
+
+.insights-page h1 {
+  margin: 0 0 6px;
+  color: #0f2744;
+  font-size: 22px;
+}
+.insights-page p.pro-muted { margin: 0 0 16px; }
+
+.activity-table,
+.history-table-wrapper table {
+  min-width: 0;
+  width: 100%;
+}

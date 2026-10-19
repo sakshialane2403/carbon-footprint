@@ -1,0 +1,110 @@
+html.dark-mode,
+html.dark-mode body {
+  background: #0b1611 !important;
+  color: #e7eee9;
+}
+
+html.dark-mode .admin-layout,
+html.dark-mode .admin-dashboard,
+html.dark-mode .users-page,
+html.dark-mode .master-page,
+html.dark-mode .settings-page,
+html.dark-mode .profile-page,
+html.dark-mode .goals-page,
+html.dark-mode .reports-page,
+html.dark-mode .activity-history-page {
+  background: #0b1611 !important;
+  color: #e7eee9;
+}
+
+html.dark-mode .admin-layout-content,
+html.dark-mode .admin-page-content {
+  background: #0b1611;
+}
+
+html.dark-mode .admin-header,
+html.dark-mode .admin-card,
+html.dark-mode .dashboard-widget,
+html.dark-mode .users-card,
+html.dark-mode .master-card,
+html.dark-mode .master-stat-card,
+html.dark-mode .settings-section,
+html.dark-mode .settings-menu,
+html.dark-mode .analytics-card,
+html.dark-mode .users-table th,
+html.dark-mode .master-table th,
+html.dark-mode .report-panel,
+html.dark-mode .report-card,
+html.dark-mode .goal-card,
+html.dark-mode .goal-stat,
+html.dark-mode .profile-card,
+html.dark-mode .history-table-card,
+html.dark-mode .history-filter-card,
+html.dark-mode .history-summary-card {
+  background: #12241b !important;
+  color: #e7eee9 !important;
+  border-color: #1f3a2c !important;
+  box-shadow: none !important;
+}
+
+html.dark-mode h1,
+html.dark-mode h2,
+html.dark-mode h3,
+html.dark-mode .admin-header h2,
+html.dark-mode .section-heading h2,
+html.dark-mode .users-header h1,
+html.dark-mode .master-header h1 {
+  color: #f0fdf4 !important;
+}
+
+html.dark-mode p,
+html.dark-mode td,
+html.dark-mode th,
+html.dark-mode span,
+html.dark-mode label,
+html.dark-mode .admin-header p {
+  color: #b7c7bc !important;
+}
+
+html.dark-mode .admin-card h2,
+html.dark-mode .amt,
+html.dark-mode strong {
+  color: #ecfdf3 !important;
+}
+
+html.dark-mode input,
+html.dark-mode select,
+html.dark-mode textarea,
+html.dark-mode .users-search,
+html.dark-mode .master-search,
+html.dark-mode .theme-btn {
+  background: #0f1f18 !important;
+  color: #e7eee9 !important;
+  border-color: #2a4a38 !important;
+}
+
+html.dark-mode table tbody tr:hover {
+  background: #163024 !important;
+}
+
+html.dark-mode .admin-welcome-card {
+  background: linear-gradient(135deg, #052016, #0d3d28) !important;
+}
+
+html.dark-mode .btn.ghost,
+html.dark-mode .modal-cancel-btn,
+html.dark-mode .clear-filter-btn {
+  background: #163024 !important;
+  color: #d1fae5 !important;
+  border-color: #2a4a38 !important;
+}
+
+html.dark-mode .master-modal,
+html.dark-mode .settings-status {
+  background: #12241b !important;
+  color: #e7eee9 !important;
+}
+
+html.dark-mode .master-modal-overlay {
+  background: rgba(0, 0, 0, 0.65);
+}

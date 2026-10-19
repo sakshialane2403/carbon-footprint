@@ -1,0 +1,45 @@
+.users-page { min-height: auto; padding: 0; box-sizing: border-box; background: transparent; width: 100%; max-width: 100%; min-width: 0; overflow-x: auto; }
+.users-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px; }
+.users-label { color: #16a34a; font-size: 10px; font-weight: 700; letter-spacing: 1.5px; }
+.users-header h1 { margin: 5px 0; font-size: 30px; color: #1f2937; }
+.users-total { display: flex; align-items: center; gap: 12px; padding: 13px 18px; background: white; border: 1px solid #e3e9e5; border-radius: 12px; }
+.users-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-bottom: 22px; }
+.user-stat-card { display: flex; align-items: center; gap: 14px; background: white; padding: 20px; border: 1px solid #e5ebe7; border-radius: 15px; }
+.user-stat-icon { width: 45px; height: 45px; border-radius: 12px; display: flex; align-items: center; justify-content: center; }
+.user-stat-icon.total { background: #dcfce7; color: #16a34a; }
+.user-stat-icon.active { background: #dbeafe; color: #2563eb; }
+.user-stat-icon.inactive { background: #fee2e2; color: #dc2626; }
+.users-card { background: white; border: 1px solid #e5ebe7; border-radius: 17px; overflow: hidden; margin-top: 0; padding: 0; width: 100%; max-width: 100%; min-width: 0; }
+.users-card-header { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 16px 18px; border-bottom: 1px solid #eef2ef; flex-wrap: wrap; }
+.users-search { width: 230px; max-width: 100%; display: flex; align-items: center; gap: 9px; padding: 9px 12px; background: #f7faf8; border: 1px solid #e1e8e3; border-radius: 9px; }
+.users-search input { width: 100%; border: none; outline: none; background: transparent; }
+.users-table-scroll {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+.users-table { width: 100%; min-width: 780px; border-collapse: collapse; }
+.users-table th, .users-table td { white-space: nowrap; }
+.users-table th { padding: 13px 16px; text-align: left; background: #f8faf9; color: #7b857f; font-size: 11px; }
+.users-table td { padding: 14px 16px; border-bottom: 1px solid #f0f3f1; font-size: 13px; }
+.user-actions { display: flex; gap: 6px; flex-wrap: nowrap; }
+.user-info { display: flex; align-items: center; gap: 10px; }
+.user-avatar { width: 36px; height: 36px; border-radius: 50%; background: #dcfce7; color: #15803d; display: flex; align-items: center; justify-content: center; font-weight: 700; }
+.status-badge { display: inline-flex; align-items: center; gap: 6px; padding: 5px 9px; border-radius: 20px; font-size: 9px; font-weight: 600; }
+.active-status, .status.active { background: #dcfce7; color: #15803d; }
+.inactive-status, .status.inactive { background: #fee2e2; color: #b91c1c; }
+.view-user-btn { width: 30px; height: 30px; border: none; border-radius: 8px; background: #f0fdf4; color: #16a34a; cursor: pointer; margin-right: 6px; }
+.approve-btn, .reject-btn {
+  border: none; border-radius: 8px; padding: 6px 12px; font-size: 11px; font-weight: 700; cursor: pointer; color: #fff;
+}
+.approve-btn { background: #16a34a; }
+.reject-btn { background: #dc2626; }
+.users-card-footer { padding: 15px 20px; color: #9ca3af; font-size: 10px; }
+.user-search { display: flex; align-items: center; gap: 8px; border: 1px solid #d1d5db; border-radius: 10px; padding: 0 10px; }
+.user-search input { border: 0; height: 40px; outline: none; }
+.edit, .delete { border: 0; background: transparent; cursor: pointer; margin-right: 8px; }
+.edit { color: #2563eb; } .delete { color: #dc2626; }
+.no-users { text-align: center; color: #6b7280; padding: 40px; }
+@media (max-width: 900px) { .users-stats { grid-template-columns: 1fr; } }

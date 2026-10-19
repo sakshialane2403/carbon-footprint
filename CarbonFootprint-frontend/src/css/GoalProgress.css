@@ -1,0 +1,18 @@
+.goal-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 22px 20px;
+  text-align: center;
+  border: 1px solid #e4eee8;
+}
+.goal-card h2 { color: #14532d; margin: 0 0 16px; font-size: 15px; }
+.circle {
+  width: 128px; height: 128px; margin: auto; border-radius: 50%;
+  display: flex; justify-content: center; align-items: center;
+}
+.inner-circle {
+  width: 94px; height: 94px; background: #fff; border-radius: 50%;
+  display: flex; justify-content: center; align-items: center;
+}
+.inner-circle h1 { color: #14532d; font-size: 26px; margin: 0; }
+.goal-card p { margin: 16px 0 0; color: #64748b; font-size: 13px; line-height: 1.5; }

@@ -1,0 +1,12 @@
+.why{ padding:56px 7%; background:#fff; }
+.why-title{ margin-bottom:28px; }
+.why-title h2{ font-size:28px; margin:0; color:#14532d; }
+.why-grid{ display:grid; grid-template-columns:repeat(4,1fr); gap:18px; }
+.why-card{
+    background:#f8faf9; border-radius:14px; padding:20px;
+    box-shadow:none; text-align:left; border:1px solid #eef2ef;
+}
+.why-icon{ font-size:22px; color:#16a34a; width:auto; height:auto; background:none; margin:0 0 10px; }
+.why-card h3{ font-size:16px; margin:0 0 6px; color:#14532d; }
+.why-card p{ color:#6b7280; line-height:1.5; font-size:13px; margin:0; }
+@media(max-width:992px){ .why-grid{ grid-template-columns:repeat(2,1fr); } }

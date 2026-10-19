@@ -1,0 +1,33 @@
+.dashboard { min-height: auto; background: transparent; }
+.dashboard-content { margin-left: 0; padding: 0; min-height: auto; }
+.user-dash { width: 100%; }
+.alert-stack { display: grid; gap: 8px; margin-bottom: 14px; }
+.alert-banner {
+  background: #fff7ed; border: 1px solid #fed7aa; color: #9a3412;
+  border-radius: 12px; padding: 11px 14px; font-size: 13px;
+}
+.chart-section {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 16px;
+  margin: 18px 0;
+}
+.chart-card {
+  background: #fff;
+  padding: 18px 18px 10px;
+  border-radius: 16px;
+  border: 1px solid #e4eee8;
+}
+.chart-card h3 { margin: 0 0 10px; color: #14532d; font-size: 15px; font-weight: 700; }
+.dash-bottom {
+  display: grid;
+  grid-template-columns: 1.7fr 1fr;
+  gap: 16px;
+  align-items: start;
+}
+.dash-bottom .goal-card { margin-top: 0; }
+.pro-muted { color: #64748b; font-size: 13px; }
+@media (max-width: 1100px) {
+  .chart-section, .dash-bottom { grid-template-columns: 1fr; }
+}
+

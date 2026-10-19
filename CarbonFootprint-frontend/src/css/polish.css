@@ -1,0 +1,38 @@
+/* Shared polish for admin extras + forms */
+.form-group select,
+.form-group input[type="date"],
+.form-group input[type="number"] {
+  width: 100%; box-sizing: border-box; height: 42px;
+  border: 1px solid #d1d5db; border-radius: 9px; padding: 0 12px; background: #fff;
+}
+.view-user-btn, .btn.sm {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-width: auto; height: auto; padding: 7px 10px;
+}
+.admin-dashboard > h2 { color: #14532d; }
+.admin-dashboard .admin-card h3 { color: #14532d; margin: 8px 0 4px; }
+.admin-dashboard .admin-card .btn { width: 100%; margin-top: 8px; }
+.users-table .btn { margin-left: 4px; }
+.master-page .master-search input { width: 100%; border: 0; outline: none; height: 40px; }
+
+html.dark-mode .feature-card,
+html.dark-mode .contact,
+html.dark-mode .contact-right form,
+html.dark-mode .info-box,
+html.dark-mode .cards .card,
+html.dark-mode .chart-card,
+html.dark-mode .dashboard,
+html.dark-mode .dashboard-content,
+html.dark-mode .recent-activity,
+html.dark-mode .activity-card,
+html.dark-mode .tips-card,
+html.dark-mode .goal-card,
+html.dark-mode .profile-card,
+html.dark-mode .quick-actions {
+  background: #12241b !important;
+  color: #e7eee9 !important;
+  border-color: #1f3a2c !important;
+}
+html.dark-mode .dashboard-content > h1,
+html.dark-mode .feature-card h3,
+html.dark-mode .cards h2 { color: #f0fdf4 !important; }

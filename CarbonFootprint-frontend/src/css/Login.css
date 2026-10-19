@@ -1,0 +1,103 @@
+.login{
+  min-height:100vh;
+  display:grid;
+  grid-template-columns: 1.05fr 1fr;
+  background:#fff;
+}
+.login-left{
+  background:#f3faf6;
+  color:#14532d;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  padding:48px 40px;
+  position:relative;
+}
+.login-brand{
+  display:flex; align-items:center; gap:10px;
+  font-size:20px; font-weight:700; margin-bottom:24px; color:#14532d;
+  align-self:flex-start;
+}
+.login-brand svg{ color:#16a34a; font-size:22px; }
+.login-left img{
+  width:100%; max-width:480px; height:auto; object-fit:contain;
+  filter:none;
+  margin:0 auto 20px;
+}
+.login-left-copy h3{ margin:0 0 8px; font-size:22px; font-weight:700; color:#14532d; }
+.login-left-copy p{ margin:0; color:#4d7c5a; line-height:1.6; max-width:380px; font-size:14px; }
+.login-right{
+  display:flex; flex-direction:column; justify-content:center;
+  padding:48px 64px; max-width:520px; width:100%; margin:0 auto;
+  background:#fff; box-shadow:none; border:0; border-radius:0;
+}
+.login-home{
+  font-size:13px; font-weight:600; color:#64748b; margin-bottom:28px; width:fit-content;
+}
+.login-home:hover{ color:#14532d; }
+.login-right h2{
+  font-size:32px; color:#0f2744; margin:0 0 6px; letter-spacing:-0.04em; font-weight:750;
+}
+.login-right > p{ color:#64748b; margin:0 0 24px; line-height:1.55; font-size:14px; }
+.login-right form{ display:flex; flex-direction:column; }
+.login-right label{ margin-bottom:6px; font-weight:600; color:#334155; font-size:13px; }
+.login-right input[type="text"],
+.login-right input[type="password"]{
+  width:100%; padding:13px 14px; margin-bottom:16px; border:1px solid #e2e8f0;
+  border-radius:10px; font-size:14px; outline:none; background:#fff; color:#0f172a;
+}
+.login-right input:focus,
+.password-wrap input:focus{
+  border-color:#16a34a; box-shadow:0 0 0 3px rgba(22,163,74,.12);
+}
+.password-wrap{ position:relative; margin-bottom:16px; width:100%; }
+.password-wrap input{
+  width:100% !important; box-sizing:border-box; height:48px;
+  margin-bottom:0 !important; padding:12px 46px 12px 14px !important;
+  border:1px solid #e2e8f0; border-radius:10px; font-size:14px; background:#fff;
+}
+.eye-btn{
+  position:absolute; right:6px; top:50%; transform:translateY(-50%);
+  width:36px; height:36px; border:none; background:transparent; cursor:pointer;
+  color:#94a3b8; display:flex; align-items:center; justify-content:center; font-size:15px;
+}
+.eye-btn:hover{ color:#14532d; }
+.login-username-hint{
+  background:#f0fdf4; color:#14532d; padding:12px 14px; border-radius:10px;
+  font-size:13px; margin-bottom:16px; border:1px solid #bbf7d0; line-height:1.5;
+}
+.login-username-hint span{ display:block; color:#3f6212; font-weight:400; margin-top:2px; }
+.login-options{
+  display:flex; justify-content:space-between; align-items:center;
+  margin-bottom:20px; font-size:13px;
+}
+.login-options .remember{ display:flex; align-items:center; gap:8px; margin:0; font-weight:500; color:#475569; }
+.login-options a{ color:#16a34a; font-weight:600; }
+.login-submit{
+  width:100%; padding:13px; background:#16a34a; color:#fff; border:none;
+  border-radius:10px; font-size:15px; font-weight:650; cursor:pointer;
+}
+.login-submit:hover{ background:#15803d; }
+.login-submit:disabled{ opacity:.65; cursor:wait; }
+.oauth-divider{ display:flex; align-items:center; gap:12px; margin:22px 0 14px; color:#94a3b8; font-size:12px; }
+.oauth-divider::before, .oauth-divider::after{ content:""; flex:1; height:1px; background:#e2e8f0; }
+.oauth-row{ display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+.oauth-btn{
+  padding:11px; background:#fff; color:#0f172a; border:1px solid #e2e8f0;
+  border-radius:10px; font-size:13px; font-weight:600; cursor:pointer;
+  display:flex; align-items:center; justify-content:center; gap:8px;
+}
+.oauth-btn:hover{ border-color:#cbd5e1; background:#f8fafc; }
+.register-text{ text-align:center; margin-top:22px; color:#64748b; font-size:14px; }
+.register-text a{ color:#16a34a; font-weight:700; margin-left:4px; }
+.login-error {
+  background:#fef2f2; color:#b91c1c; padding:10px 14px; border-radius:10px;
+  font-size:13px; margin-bottom:14px; border:1px solid #fecaca;
+}
+@media(max-width:992px){
+  .login{ grid-template-columns:1fr; }
+  .login-left{ padding:28px 24px 8px; }
+  .login-left img{ max-width:280px; }
+  .login-right{ padding:28px 24px 40px; max-width:none; }
+}

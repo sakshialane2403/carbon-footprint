@@ -1,0 +1,22 @@
+.admin-dashboard {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  min-height: auto;
+  padding: 0;
+  box-sizing: border-box;
+  background: transparent;
+  overflow-x: auto;
+}
+.admin-welcome-card { display: none; }
+.dashboard-section { width: 100%; max-width: 100%; min-width: 0; margin-bottom: 20px; }
+.section-heading { display: flex; align-items: flex-end; justify-content: space-between; margin-bottom: 12px; }
+.section-label { display: none; }
+.section-heading h2 { margin: 0; color: #0f2744; font-size: 20px; }
+.section-heading p { display: none; }
+.live-badge { display: none; }
+.admin-bottom-section { display: none; }
+.admin-dashboard-footer { display: none; }
+.admin-dashboard .users-page { padding: 0; background: transparent; min-height: auto; }
+.admin-dashboard .users-header { display: none; }
+.analytics-container, .sustainability-container, .users-container { width: 100%; min-width: 0; }
