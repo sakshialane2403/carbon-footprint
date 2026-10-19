@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+.login{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:#f4fdf7;
+    padding:60px 8%;
+    gap:80px;
+}
+
+.login-left{
+    flex:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.login-left img{
+    width:100%;
+    max-width:500px;
+}
+
+.login-right{
+    flex:1;
+    background:#fff;
+    padding:50px;
+    border-radius:20px;
+    box-shadow:0 15px 35px rgba(0,0,0,0.08);
+}
+
+.login-right h2{
+    font-size:38px;
+    color:#166534;
+    margin-bottom:10px;
+}
+
+.login-right p{
+    color:#666;
+    margin-bottom:30px;
+}
+
+.login-right form{
+    display:flex;
+    flex-direction:column;
+}
+
+.login-right label{
+    margin-bottom:8px;
+    font-weight:600;
+    color:#333;
+}
+
+.login-right input{
+    width:100%;
+    padding:15px;
+    margin-bottom:20px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    font-size:15px;
+    outline:none;
+    transition:0.3s;
+}
+
+.login-right input:focus{
+    border-color:#16a34a;
+    box-shadow:0 0 8px rgba(22,163,74,.2);
+}
+
+.login-options{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:25px;
+    font-size:14px;
+}
+
+.login-options label{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    margin:0;
+}
+
+.login-options a{
+    text-decoration:none;
+    color:#16a34a;
+    font-weight:600;
+}
+
+.login-options a:hover{
+    text-decoration:underline;
+}
+
+.login-right button{
+    width:100%;
+    padding:15px;
+    background:#16a34a;
+    color:#fff;
+    border:none;
+    border-radius:10px;
+    font-size:17px;
+    font-weight:600;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.login-right button:hover{
+    background:#15803d;
+    transform:translateY(-2px);
+}
+
+.register-text{
+    text-align:center;
+    margin-top:25px;
+    color:#666;
+}
+
+.register-text a{
+    color:#16a34a;
+    text-decoration:none;
+    font-weight:700;
+    margin-left:5px;
+}
+
+.register-text a:hover{
+    text-decoration:underline;
+}
+
+@media(max-width:992px){
+
+.login{
+    flex-direction:column;
+}
+
+.login-left img{
+    max-width:350px;
+}
+
+.login-right{
+    width:100%;
+}
+
+}

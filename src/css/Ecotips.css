@@ -1,0 +1,20 @@
+.tips-card{
+background:#fff;
+padding:25px;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.tips-card h3{
+margin-bottom:20px;
+color:#14532d;
+}
+
+.tips-card ul{
+padding-left:20px;
+}
+
+.tips-card li{
+margin:12px 0;
+line-height:1.6;
+}
